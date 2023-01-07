@@ -1,0 +1,240 @@
+/* For all */
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* Primary Button's styles */
+.btn-primary{
+    color: rgb(66, 44, 213);
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 5px 20px;
+    height: 45px;
+    /* width: ; */
+    border-radius: 5px;
+    background-color:#fff ;
+    margin-bottom: 100px;
+}
+
+
+/* banner's/Hero section's styles */
+
+.banner{
+ padding: 20px 120px 40px 750px;
+text-align: right;
+    
+}
+.banner-title{
+    color: #fff;
+    padding-top: 40px;
+    font-size: 65px;
+    font-weight: 800;
+}
+.banner-description{
+   color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.header{
+    background-image: url("images/banner/b3.png");
+    background-repeat: no-repeat;
+    background-size: 1350px 600px;
+}
+
+
+/* About Section */
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    margin: 60px;
+}
+.profile-title{
+    margin-right: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.profile-description{
+    padding-bottom: 20px;
+}
+
+/* .list{
+    margin-right: 40px;
+} */
+
+/* In this "main" thare are about-section, Goals-section, Resume Section */
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+
+/* Goal/plane's section styles */
+
+.goal-section{
+    margin: 50px 0px 90px 0px;
+}
+.section-title{
+    text-align: center;
+    padding-bottom: 30px;
+   font-size: 40px;
+   margin-bottom: 40px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.goals-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    align-items: center;
+  
+}
+
+.goal{
+    background: #fff;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: justify;
+    margin: 15px;
+}
+.goal-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* Resume section styles */
+
+.resume-content{
+    display: flex;
+    gap: 100px;
+    /* justify-content: center; */
+}
+.resume{
+    padding: 0px 50px 0px 50px;
+}
+.resume .title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color:#757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-secodary{
+    color: rgb(27, 6, 166);
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 5px 20px;
+    height: 45px;
+    /* width: ; */
+    border-radius: 5px;
+    background-color:rgb(111, 110, 110) ;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.resume-btn{
+    margin-top: 50;
+    text-align: center;
+}
+
+
+/* contact section styles */
+
+.contact{
+    background: linear-gradient(to left,rgba(0, 0, 0, 0),rgba(55, 16, 228, 50)),url("images/wtch.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 1000px;
+    margin: 20px 50px 20px 50px;
+    border-radius: 10px;
+}
+
+.contact-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 50px;
+    padding-right: 500px;
+    padding-left: 50px;
+}
+
+/* Footer section Styles */
+
+
+.footer-container{
+     background-color: black; 
+
+} 
+.footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 550px;
+    margin: 120px 150px 0px 120px ;
+
+}
+.social-medius{
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    padding-bottom: 80px;
+}
+.feture-title{
+    font-size: 45px;
+    font-weight: 850;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.feture-description{
+    font-size: 18px;
+    color:#fff ;
+    padding-bottom: 40px;
+}
+.mail{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.subscription{
+    padding-top: 100px;
+}
+.subscription-title{
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.formate{
+    color: #fff;
+}
